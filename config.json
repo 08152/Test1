@@ -1,0 +1,12 @@
+{
+  "project": {"name": "BODYGUARD AI", "version": "0.2.0", "language": "de"},
+  "operation": {"offline_runtime": true, "training_data_path": "daten/trainingsdaten.json", "model_path": "speicher/modell.json"},
+  "server": {"host": "127.0.0.1", "port": 8765},
+  "safety": {
+    "real_hardware_enabled": false,
+    "movement_commands_enabled": false,
+    "automatic_model_deployment": false,
+    "store_raw_audio_video": false
+  },
+  "training": {"epochs": 1200, "learning_rate": 0.08, "seed": 42}
+}

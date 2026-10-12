@@ -1,0 +1,3 @@
+# Keine Drittanbieter-Pakete nötig.
+# Das Netzwerk nutzt ausschließlich die Python-Standardbibliothek.
+# Laufzeit und Training funktionieren offline.
